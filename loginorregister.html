@@ -48,13 +48,24 @@
 
         #center {
             width: 100%;
-            height: 300px;
+            height: 200px;
             border: 1px solid chartreuse;
             margin: auto;
         }
 
-        .google {
-            
+        .google, .email{
+            width: 80%;
+            height: 40px;
+            border: 1px solid red;
+            margin: auto;
+        }
+
+        .google input, .email input {
+            width: 90%;
+            height: 39px;
+            font-size: 14px;
+            font-weight: 700;
+            text-align: center;
         }
     </style>
 </head>
@@ -70,11 +81,8 @@
                 <div class="google">
                     <input type="text" placeholder="Continue with Google">
                 </div>
-                <div>
+                <div class="email">
                     <input type="text" placeholder="Continue with Email">
-                </div>
-                <div>
-                    <input type="text" placeholder="Continue with Google">
                 </div>
             </div>
         </div>
