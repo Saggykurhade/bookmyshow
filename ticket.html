@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tickets</title>
+    <script src="https://kit.fontawesome.com/74e9527aa9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./ticket.css">
+</head>
+
+<body>
+    <div style="font-family: Arial, Helvetica, sans-serif;">
+        <div id="container">
+            <div style="width: 100%;">
+                <div
+                    style="display: flex; justify-content: space-between;height: 70px; width: 100%;background-color:rgb(51,53,69)">
+                    <div style="display: flex;">
+                        <div style="display: flex;">
+                            <img style="width: 150px;height: 60px;margin-top: 5px;margin-right: 10px;margin-left: 100px;"
+                                src="./images/bmsicon.png">
+                            <div
+                                style="display: flex;background-color: white;height: 35px; width: 450px;border-radius: 5px;margin-top: 17px;">
+                                <span>
+                                    <i style="margin-top: 10px;margin-left: 10px;"
+                                        class="fa-solid fa-magnifying-glass"></i>
+                                </span>
+                                <span>
+                                    <input type="text"
+                                        style="width: 400px;padding-top: 7px;padding-left: 10px; margin-top: 3px;outline: none;border: none;"
+                                        placeholder="search for Movies,Events,Plays,Sports and Activities">
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style="margin-right: 80PX;">
+                        <select name="" id="select"
+                            style="background-color: rgb(51,53,69); color: rgb(199, 205, 209);outline: none;border: none;height: 20px;width: 75px;">
+                            <option value="">
+                                Mumbai
+                            </option>
+                            <option value="">
+                                Pune
+                            </option>
+                            <option value="">
+                                Kolkata
+                            </option>
+                            <option value="">
+                                Chennai
+                            </option>
+                            <option value="">
+                                bengaluru
+                            </option>
+                            <option value="">
+                                Hyderabad
+                            </option>
+                        </select>
+                        <a href="./login.html"><input type="button" value="Sign in" id="signin"></a>
+                        <i class="fa-solid fa-bars" style="color: #ffffff;" id="bars"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div
+                style="height: 40px;width: 94.2%;background-color: rgb(34,37,57); color: #ffffff;display: flex;font-family: Arial,Helvetica, sans-serif;justify-content: space-between; padding-left: 88PX;">
+                <span style="width: 500px;display: flex;justify-content: space-evenly;margin-top: 10px;">
+                    <div style="color: rgb(199, 205, 209);">
+                        Movies
+                    </div>
+                    <div style="color: rgb(199, 205, 209);">
+                        Stream
+                        <sup style="color: rgb(253, 93, 93);font-size: 10px;">
+                            NEW
+                        </sup>
+                    </div>
+                    <div style="color: rgb(199, 205, 209);">
+                        Events
+                    </div>
+                    <div style="color: rgb(199, 205, 209);">
+                        Plays
+                    </div>
+                    <div style="color: rgb(199, 205, 209);">
+                        Activities
+                    </div>
+                    <div style="color: rgb(199, 205, 209);">
+                        Sports
+                    </div>
+                    <div style="color: rgb(199, 205, 209);">
+                        Buzz
+                    </div>
+                </span>
+                <span
+                    style="width: 350px;display: flex;justify-content: space-evenly;font-size: 12px;margin-top: 13px;padding-right: 100px;">
+                    <div>
+                        ListYourShow
+                    </div>
+                    <div>
+                        Corporates
+                    </div>
+                    <div>
+                        Offers
+                    </div>
+                    <div>
+                        Gift Cards
+                    </div>
+                </span>
+            </div>
+        </div>
+
+        <section id="title">
+            <p>Subhedar - Marathi</p>
+            <div>
+                <div><img src="./images/UA logo.png"></div>
+                <div class="genre-button">ACTION</div>
+                <div class="genre-button">DRAMA</div>
+                <div class="genre-button">HISTORICAL</div>
+            </div>
+        </section>
+
+        <div style="background-color: #f2f2f2;">
+            <section id="filters">
+                <div id="filters-left-div">
+                    <i class="fa-solid fa-chevron-left fa-xl" style="color: #b2b2b2; margin-top: 1em;"></i>
+                    <div class="movie-date-box" style="background-color:  rgb(248,68,100); color: white;">
+                        <p>TUE</p>
+                        <p>05</p>
+                        <p>SEP</p>
+                    </div>
+                    <div class="movie-date-box">
+                        <p>WED</p>
+                        <p>06</p>
+                        <p>SEP</p>
+                    </div>
+                    <div class="movie-date-box">
+                        <p>THU</p>
+                        <p>07</p>
+                        <p>SEP</p>
+                    </div>
+                    <div class="movie-date-box">
+                        <p>FRI</p>
+                        <p>08</p>
+                        <p>SEP</p>
+                    </div>
+                    <i class="fa-solid fa-chevron-right fa-xl" style="color: #b2b2b2; margin-top: 1em;"></i>
+                </div>
+
+                <div id="filters-right-div">
+                    <div class="filters-options"
+                        style="border-bottom: 4px solid rgb(248,68,100); box-sizing: border-box;">
+                        <p style="font-weight: 700;">Marathi - 2D</p>
+                    </div>
+                    <div class="filters-options" style="display: flex; justify-content: center;">
+                        <p>Filter Sub Regions</p>
+                        <i class="fa-solid fa-chevron-down" style="color: #b2b2b2; margin-left: 10%;"></i>
+                    </div>
+                    <div class="filters-options" style="display: flex; justify-content: center;">
+                        <p>Filter Price Range</p>
+                        <i class="fa-solid fa-chevron-down" style="color: #b2b2b2; margin-left: 10%;"></i>
+                    </div>
+                    <div class="filters-options">
+                        <p>Filter Show Timings</p>
+                    </div>
+                    <div id="filters-search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+            </section>
+
+            <section id="results">
+                <div id="ticket-status-bar">
+                    <!-- <div><img sr></div> -->
+                    <img src="./images/ava.png" style="width: 25%; height: 70%; margin-top: 0.25%;">
+                </div>
+
+                <div class="results-div">
+                    <div class="results-div-left">
+                        <div class="heart">
+                            <i class="fa-regular fa-heart" id="neutral-heart"
+                                style="color: #b2b2b2; margin-top: 20%;"></i>
+                            <i class="fa-solid fa-heart" id="liked-heart" style="color: #f84464; margin-top: 20%;"></i>
+                        </div>
+                        <div class="theatre">
+                            <p class="theatre-name">Cinepolis: Fun Republic Mall, Andheri (W)</p>
+                            <div class="mobile-ticket-and-food">
+                                <div class="mobile-ticket">
+                                    <img src="./images/ticket-logo.png">
+                                </div>
+                                <div class="food">
+                                    <img src="./images/food-logo.png" style="width: 100%;">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <img src="./images/info-logo.png" style="margin-left: 30%; margin-top: 10%;">
+                        </div>
+                    </div>
+                    <div class="results-div-right">
+                        <div class="screens-and-timings">
+                            <div class="screens-and-timings-button">
+                                <p class="timing">01:10 PM</p>
+                                <p class="screen">DOLBY ATMOS</p>
+                            </div>
+                            <div class="screens-and-timings-button">
+                                <p class="timing">01:10 PM</p>
+                                <p class="screen">DOLBY ATMOS</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="results-div">
+                    <div class="results-div-left">
+                        <div class="heart">
+                            <i class="fa-regular fa-heart" id="neutral-heart"
+                                style="color: #b2b2b2; margin-top: 20%;"></i>
+                            <i class="fa-solid fa-heart" id="liked-heart" style="color: #f84464; margin-top: 20%;"></i>
+                        </div>
+                        <div class="theatre">
+                            <p class="theatre-name">G7 Multiplex: Bandra (W)</p>
+                            <div class="mobile-ticket-and-food">
+                                <div class="mobile-ticket">
+                                    <img src="./images/ticket-logo.png">
+                                </div>
+                                <div class="food">
+                                    <img src="./images/food-logo.png" style="width: 100%;">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <img src="./images/info-logo.png" style="margin-left: 30%; margin-top: 10%;">
+                        </div>
+                    </div>
+                    <div class="results-div-right">
+                        <div class="screens-and-timings">
+                            <div class="screens-and-timings-button">
+                                <p class="timing">11:30 AM</p>
+                                <p class="screen">GEMINI</p>
+                            </div>
+                            <div class="screens-and-timings-button">
+                                <p class="timing">04:45 PM</p>
+                                <p class="screen">GEMINI</p>
+                            </div>
+                            <div class="screens-and-timings-button">
+                                <p class="timing">07:45 PM</p>
+                                <p class="screen">GEMINI</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="results-div">
+                    <div class="results-div-left">
+                        <div class="heart">
+                            <i class="fa-regular fa-heart" id="neutral-heart"
+                                style="color: #b2b2b2; margin-top: 20%;"></i>
+                            <i class="fa-solid fa-heart" id="liked-heart" style="color: #f84464; margin-top: 20%;"></i>
+                        </div>
+                        <div class="theatre">
+                            <p class="theatre-name">INOX: Megaplex, Inorbit Mall, Malad</p>
+                            <div class="mobile-ticket-and-food">
+                                <div class="mobile-ticket">
+                                    <img src="./images/ticket-logo.png">
+                                </div>
+                                <div class="food">
+                                    <img src="./images/food-logo.png" style="width: 100%;">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <img src="./images/info-logo.png" style="margin-left: 30%; margin-top: 10%;">
+                        </div>
+                    </div>
+                    <div class="results-div-right">
+                        <div class="screens-and-timings">
+                            <div class="screens-and-timings-button">
+                                <p class="timing">02:20 PM</p>
+                                <!-- <p class="screen">DOLBY ATMOS</p> -->
+                            </div>
+                            <div class="screens-and-timings-button">
+                                <p class="timing">05:40 PM</p>
+                                <!-- <p class="screen">DOLBY ATMOS</p> -->
+                            </div>
+                            <div class="screens-and-timings-button">
+                                <p class="timing">09:00 PM</p>
+                                <!-- <p class="screen">DOLBY ATMOS</p> -->
+                            </div>
+                            <div class="screens-and-timings-button">
+                                <p class="timing">10:45 PM</p>
+                                <p class="screen">INSIGNIA</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="results-div">
+                    <div class="results-div-left">
+                        <div class="heart">
+                            <i class="fa-regular fa-heart" id="neutral-heart"
+                                style="color: #b2b2b2; margin-top: 20%;"></i>
+                            <i class="fa-solid fa-heart" id="liked-heart" style="color: #f84464; margin-top: 20%;"></i>
+                        </div>
+                        <div class="theatre">
+                            <p class="theatre-name">INOX: Raghuleela Mall, Kandivali (W)</p>
+                            <div class="mobile-ticket-and-food">
+                                <div class="mobile-ticket">
+                                    <img src="./images/ticket-logo.png">
+                                </div>
+                                <div class="food">
+                                    <img src="./images/food-logo.png" style="width: 100%;">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <img src="./images/info-logo.png" style="margin-left: 30%; margin-top: 10%;">
+                        </div>
+                    </div>
+                    <div class="results-div-right">
+                        <div class="screens-and-timings">
+                            <div class="screens-and-timings-button">
+                                <p class="timing">10:05 PM</p>
+                                <!-- <p class="screen">DOLBY ATMOS</p> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="bottom-nav">
+                <div style="background-color: white;padding-left: 100px;padding-top: 20px;height: 30px;">
+                    <p style="font-size: 12px;color: #b2b2b2;">Online tickets
+                        →
+                        Home
+                        →
+                        Movies in Mumbai
+                        →
+                        Subhedar</p>
+                </div>
+            </section>
+
+            <section id="privacy-note" style="margin-top: 2%; margin-left: 6.4%;height: 50px;">
+                <h5 style="color: #b2b2b2;">Privacy Note</h5>
+                <p style="font-size: 12px;color: #b2b2b2;">By using www.bookmyshow.com(our website), you are fully accepting the Privacy Policy available at
+                    https://bookmyshow.com/privacy governing your access to Bookmyshow and provision of services by
+                    Bookmyshow to you. If you do not accept terms mentioned in the Privacy Policy, you must not share
+                    any of
+                    your personal information and immediately exit Bookmyshow.</p>
+            </section>
+        </div>
+
+        <footer>
+            <div id="footer-div-1">
+                <div>
+                    <img src="./images/foot-logo.png" style="height: 3em; width: 3em;">
+                    <p><span style="font-weight: 700; margin: 0em 1em;">List your Show</span> Got a show, event,
+                        activity or a great experience? Partner with us & get listed on BookMyShow</p>
+                </div>
+                <div>
+                    <div id="contact-today">
+                        <p>Contact today!</p>
+                    </div>
+                </div>
+            </div>
+            <div id="footer-div-2">
+                <div>
+                    <hr style="width: 45%;">
+                    <img src="./images/icon.png" style="max-width: 100%;">
+                    <hr style="width: 45%;">
+                </div>
+                <div>
+                    <div class="social-media-icons">
+                        <i class="fa-brands fa-facebook-f fa-xl" style="color: #333338;"></i>
+                    </div>
+                    <div class="social-media-icons">
+                        <i class="fa-brands fa-twitter fa-xl" style="color: #333338;"></i>
+                    </div>
+                    <div class="social-media-icons">
+                        <i class="fa-brands fa-instagram fa-xl" style="color: #333338;"></i>
+                    </div>
+                    <div class="social-media-icons">
+                        <i class="fa-brands fa-youtube fa-xl" style="color: #333338;"></i>
+                    </div>
+                    <div class="social-media-icons">
+                        <i class="fa-brands fa-pinterest fa-xl" style="color: #333338;"></i>
+                    </div>
+                    <div class="social-media-icons">
+                        <i class="fa-brands fa-linkedin-in fa-xl" style="color: #333338;"></i>
+                    </div>
+                </div>
+                <div style="flex-direction: column; font-size: 80%; color: lightgrey;">
+                    <p>Copyright 2023 © Bigtree Entertainment Pvt. Ltd. All Rights Reserved.</p>
+                    <p>The content and images used on this site are copyright protected and copyrights vests with the
+                        respective owners. The usage of the content and images on this website is intended to promote
+                        the works and no endorsement of the artist shall be implied.</p>
+                    <p>Unauthorized use is prohibited and punishable by law.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
