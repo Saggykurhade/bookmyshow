@@ -248,14 +248,14 @@
 }
 
 footer {
-    height: 10%;
+    height: 350px;
     width: 100%;
     /* border : 1px solid black; */
 }
 
 #footer-div-1 {
     height: 30%;
-    border : 1px solid red;
+    /* border : 1px solid red; */
     display: flex;
     background-color: rgb(49, 48, 53);
 }
@@ -309,7 +309,7 @@ footer {
 .social-media-icons {
     width: 4%;
     height: 100%;
-    border : 1px solid red;
+    /* border : 1px solid red; */
     border-radius: 50%;
     margin: 15px 5px;
     background-color: rgb(93, 93, 95);
