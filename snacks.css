@@ -80,7 +80,7 @@ body {
     display: flex;
     margin: auto;
     justify-content: space-between;
-    padding-top: 10px;
+    margin-top: 10px;
 }
 
 #mid-left {
@@ -97,12 +97,15 @@ body {
 }
 
 .white-bg {
+    border: 1px solid rgba(210, 210, 210, 0.5);
     background-color: white;
+    margin-top: 2px;
 }
 
 #mid-text {
     padding-top: 10px;
     padding-bottom: 10px;
+    letter-spacing: 2px;
 }
 
 #mid-text>h1 {
@@ -251,7 +254,233 @@ body {
 }
 
 #mid-right {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     width: 30%;
 }
 
+#border-rgt {
+    border: 1px solid rgba(210, 210, 210, 0.5);
+}
+
+#booking-summary {
+    background-color: white;
+    padding: 30px 25px;
+}
+
+#bs-text {
+    color: rgb(192, 44, 57);
+    font-size: 14px;
+    font-weight: 100;
+    letter-spacing: 3px;
+}
+
+#ticket {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: rgb(31, 37, 51);
+    margin-top: 35px;
+}
+
+#seat-no>p>span {
+    font-size: 12px;
+}
+
+#seat-no p:nth-child(2) {
+    color: rgb(150, 150, 150);
+    font-size: 12px;
+    margin-top: 5px;
+    margin-left: 18px;
+}
+
+#con-fees-text {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: rgb(31, 37, 51);
+    margin-top: 14px;
+}
+
+#con-fees {
+    display: flex;
+}
+
+.down-arrow {
+    border: 1px solid rgb(150, 150, 150);
+    width: 11px;
+    height: 11px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3px;
+    margin-right: 4px;
+    color: rgb(150, 150, 150);
+}
+
+.down-arrow i {
+    margin-top: 4px;
+    margin-right: 1px;
+}
+
+#con-fees p {
+    font-size: 12px;
+    margin-top: 2px;
+}
+
+.hori-line {
+    margin: 20px 0px 8px 0px;
+    border: 1px dotted rgb(213, 213, 213);
+}
+
+#total-amt {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: rgb(31, 37, 51);
+}
+
+.circle-cut {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(242, 242, 242);
+    margin-top: 10px;
+}
+
+.circle-cut>div:nth-child(1) {
+    margin-left: -37px;
+}
+
+.circle-cut>div:nth-child(2) {
+    margin-right: -36px;
+}
+
+#bookASmile-lay {
+    background-color: rgb(245, 245, 245);
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 14px;
+}
+
+#BAS {
+    display: flex;
+    margin-top: 8px;
+}
+
+#BAS-img img {
+    width: 22px;
+    height: 22px;
+    margin-right: 5px;
+}
+
+#BAS-text p:nth-child(1) {
+    letter-spacing: 0.2px;
+}
+
+#BAS-text p:nth-child(2) {
+    font-size: 11px;
+    color: rgb(82, 82, 82);
+    letter-spacing: 0.2px;
+    margin-top: 4px;
+    margin-left: 8px;
+}
+
+#BAS-text p:nth-child(3) {
+    border-bottom: 1px dashed rgb(102, 102, 102);
+    font-size: 10px;
+    font-weight: 500;
+    color: rgb(102, 102, 102);
+    display: inline-block;
+    margin-top: 12px;
+    margin-left: 10px;
+    padding-bottom: 2px;
+}
+
+#contri-amt {
+    text-align: right;
+    margin-top: 8px;
+}
+
+#contri-amt p:nth-child(1) {
+    letter-spacing: 0.2px;
+}
+
+#contri-amt p:nth-child(2) {
+    font-size: 12px;
+    font-weight: 500;
+    color: rgb(220, 53, 88);
+    margin-top: 4px;
+}
+
+#current-state {
+    font-size: 12px;
+    color: rgb(102, 102, 102);
+    margin-top: 15px;
+}
+
+#current-state>span {
+    color: rgb(220, 53, 88);
+}
+
+#amt-pay {
+    background-color: rgb(255, 252, 220);
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 25px;
+}
+
+#ticket-type>p {
+    font-size: 14px;
+    color: rgb(153, 153, 153);
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 25px 0px 10px 0px;
+}
+
+#seletion-box {
+    justify-content: space-between;
+}
+
+#m-ticket-lay {
+    background-color: rgb(102, 102, 102);
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#m-ticket-lay>div:nth-child(1) {
+    width: 140px;
+    height: 60px;
+    display: flex;
+}
+
+#m-ticket-lay>div:nth-child(2) {
+    width: 192px;
+    height: 60px;
+    display: flex;
+}
+
+.intro {
+    font-size: 12px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.info {
+    font-size: 12px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+#total {
+    background-color: #f84464;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 25px;
+    margin-top: 10px;
+    height: 13px;
+}
