@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+}
+
+body {
+    background-color: rgb(242, 242, 242);
+    padding-bottom: 55px;
+}
+
+#top-head {
+    background-color: rgb(31, 37, 51);
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 75px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#title-content {
+    /* border: 1px solid red; */
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 6px;
+}
+
+#title-text {
+    /* border: 1px solid green; */
+    display: flex;
+    align-items: center;
+}
+
+#back-arrow {
+    margin-bottom: 8px;
+    margin-right: 16px;
+}
+
+#name {
+    display: flex;
+}
+
+#name>p {
+    font-size: 14px;
+}
+
+#name>div {
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    font-size: 10px;
+    letter-spacing: -1.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px 3px 1px 2px;
+    color: rgb(241, 241, 241);
+    margin: 0px 6px 0px 6px;
+}
+
+#address>p {
+    color: rgb(198, 198, 201);
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 8px;
+}
+
+#title-close {
+    margin-right: 16px;
+    margin-bottom: 5px;
+}
+
+#mid-content {
+    width: 82%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+#mid-left {
+    /* border: 1px solid red; */
+    width: 68.9%;
+}
+
+#advertisement img {
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.white-bg {
+    background-color: white;
+}
+
+#mid-text {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#mid-text>h1 {
+    text-align: center;
+    font-size: 26px;
+    font-weight: 500;
+    font-family: Montserrat;
+    color: rgb(51, 51, 51);
+    letter-spacing: 3px;
+}
+
+#mid-text>h1>span {
+    color: rgb(192, 44, 57);
+}
+
+#mid-text>p {
+    color: rgb(102, 102, 102);
+    text-align: center;
+    font-size: 14px;
+    margin-top: 14px;
+}
+
+#filter {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px 15px 0px;
+}
+
+.filter-box {
+    border: 1px solid rgb(223, 227, 231);
+    border-radius: 12px;
+    font-size: 10px;
+    color: rgb(102, 102, 102);
+    padding: 4px 12px;
+    margin: 0px 7.5px;
+}
+
+#filter div:nth-child(1) {
+    border: 1px solid rgb(220, 53, 88);
+    background-color: rgb(220, 53, 88);
+    color: white;
+}
+
+#snack-details {
+    /* border: 1px solid blue; */
+    height: 550px;
+    overflow-y: scroll;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0px 12px;
+    padding-top: 14px;
+}
+
+.snacks-content-lay {
+    /* border: 1px solid red; */
+    box-shadow: 0px 4px 8px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    height: 147px;
+    margin: 8px;
+}
+
+.sd-padding {
+    /* border: 1px solid blue; */
+    height: 115px;
+    display: flex;
+    padding: 16px;
+}
+
+.veg-logo img {
+    width: 12px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.snack-pic img {
+    width: 79px;
+    margin-top: -5px;
+}
+
+.snacks-content {
+    /* border: 1px solid green; */
+    width: 250px;
+    margin-left: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.snacks-name>p:nth-child(1) {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(26, 26, 26);
+}
+
+.snacks-name>p:nth-child(2) {
+    font-size: 11px;
+    color: rgb(102, 102, 102);
+    margin-top: 8px;
+    /* margin-bottom: 40px; */
+}
+
+.snacks-rate {
+    display: flex;
+    justify-content: space-between;
+}
+
+.snacks-rate div:nth-child(1) {
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 4px;
+}
+
+.snacks-rate div:nth-child(2) {
+    border: 1px solid rgb(220, 53, 75);
+    border-radius: 8px;
+    color: rgb(220, 53, 75);
+    font-size: 14px;
+    padding: 5px 16px;
+}
+
+.snacks-rate div:nth-child(2):hover {
+    background-color: red;
+    color: white;
+}
+
+#note-inox {
+    color: rgb(150, 150, 150);
+    font-size: 11px;
+    margin: 46px 0px 0px 24px;
+}
+
+#inox {
+    margin-top: 10px;
+    margin-left: -4px;
+    padding-bottom: 20px;
+}
+
+#inox p:nth-child(1) {
+    margin-left: 4px;
+}
+
+#inox p:nth-child(2) {
+    margin-top: 5px;
+}
+
+#mid-right {
+    border: 1px solid blue;
+    width: 30%;
+}
+
